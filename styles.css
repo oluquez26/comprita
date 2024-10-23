@@ -1,0 +1,118 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #b0c4b1;
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: #7da97f;
+    width: 100vw;
+    height: 70px;
+    text-align: center;
+    color: #252c2d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px 1px #a9eeac;  
+}
+
+h1 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+h3 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+li{ font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+
+
+ul{
+    list-style: none;
+    
+}
+
+li{
+    background-color:#c7d7bd;
+    padding: 10px;
+    margin: 15px;
+    width: 250px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    background-color: darkseagreen;
+    padding: 9px;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: rgb(104, 141, 104);
+    
+}
+
+.productico{
+    background-color: #dedbd2;
+    width: 130px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+img{
+    width: 110px;
+}
+
+
+#producto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: center;
+    
+}
+
+.peques{
+    width: 40px;
+}
+
+.carrito{
+    width: 20px;
+}
+
+.car{
+    display: flex;
+    align-items: center;
+}
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: #252c2d57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: none;
+}
+
+.modal-content{
+    padding: 40px;
+    background-color: rgb(252, 242, 229);
+    border-radius: 30px;
+    width: 200px;
+}
+
+.modal-content #cerrar{
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compritas</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda FullStack</h1>
+        <div class="car">
+            <h4 id="total">Valor total:</h4>
+            <img class="carrito" src="https://img.icons8.com/?size=100&id=85180&format=png&color=000000" alt=""> 
+            <h3 id="carrito"></h3>
+
+            <button onclick="vaciar()">Vaciar carrito</button>
+
+        </div>
+    </header>
+    <div class="modal">
+        
+
+        <div class="modal-content"></div>
+
+    </div>
+    <ul>
+        <li> <img src="https://lukerchocolate.com/hubfs/luker-bakery-baking-bar.webp" alt="" class="peques">Chocolate
+            <button onclick="agregarCosas('chocolate', 'es de chocolate', '15000', 'https://lukerchocolate.com/hubfs/luker-bakery-baking-bar.webp' )">Agregar </button>
+        </li>
+        
+        <li><img src="https://www.coca-cola.com/content/dam/onexp/co/es/brands/coca-cola/coca-cola-original/ccso_600ml_750x750.png" alt="" class="peques">CocaCola
+            <button  onclick="agregarCosas('CocaCola', 'es pura azucar', '35000', 'https://www.coca-cola.com/content/dam/onexp/co/es/brands/coca-cola/coca-cola-original/ccso_600ml_750x750.png' )">Agregar </button>
+        </li>
+
+        <li><img src="https://supermercadolaestacion.com/46342-thickbox_default/snacks-frito-lay-x32gr-onduladas-tomate.jpg" alt="" class="peques">Papitas
+            <button  onclick="agregarCosas('Margaritas', 'Son ricas', '10000', 'https://supermercadolaestacion.com/46342-thickbox_default/snacks-frito-lay-x32gr-onduladas-tomate.jpg' )">Agregar </button>
+        </li>
+    </ul>
+
+    <div id="producto"></div>
+
+
+</body>
+<script src="./script.js"></script>
+</html>
